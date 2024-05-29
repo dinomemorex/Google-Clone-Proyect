@@ -1,0 +1,188 @@
+body {
+    /* Margen predeterminado de las páginas web */
+    margin: 0%;
+
+    /* Margen para adentro */
+    padding: 0%;
+
+    /* Fuente */
+    font-size: 12px;
+
+    /* Fuente de texto */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------------------- */
+
+header{
+    width: 100% ;
+    height: 55px
+}
+
+header nav{
+    /* Se hace flexible el tipo de texto */
+    display: flex;
+    /* Se indica a aqué parte de la pantalla se lleva el texto */
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    /* background-color: aquamarine; */
+    /* Eliminar viñetas (los puntitos) */
+    list-style: none;
+    width: 250px;
+
+    /* Se hace flexible el elemento */
+    display: flex;
+    /* Centramos */
+    justify-content: space-between;
+    /* Centrada vertical */
+    align-items: center;
+    height: auto;
+
+}
+
+nav .nav-right-section a {
+    /* Quitar delineado */
+    text-decoration: none;
+    color: black;
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://cdn.icon-icons.com/icons2/1129/PNG/512/buttonsymbolofninedots_80014.png);
+    width: 20px;
+    height: 20px;
+
+    /* Tamaño de imgen de fondo -- contenido */
+    background-size: contain;
+}
+
+nav .nav-right-section img {
+    /* Margin - right //margin derecho */
+    margin-right: 20px;
+}
+
+main {
+    /* background-color: aquamarine; */
+    margin-top: 240px;
+    /* Centrar elementos */
+    text-align: center;
+}
+
+main .main-logo{
+    /* background-color: blue; */
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img{
+    /* Establecer tamaño de la imagen */
+    height: 100px ;
+}
+
+/* INPUT SECTION */
+main .main-input {
+    /* background-color: aqua; */
+    width: 500px;
+    /* CENTRAR EL ELEMENTO */
+    margin: 0 auto;
+    /* AGREGAR MARGEN INFERIOR */
+
+
+}
+
+main .main-input-container{
+    /* background-color: yellow; */
+    width: 500px;
+    /* Borde de color */
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+main .main-input input {
+    height: 35px;
+    border: none;
+    outline: none;
+    width: 450px;
+
+}
+
+main .main-input .search-icon {
+    background-image: url(https://cdn.icon-icons.com/icons2/933/PNG/512/searching-magnifying-glass_icon-icons.com_72568.png);
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+    width: 25px;
+}   
+main .main-input .micro-icon {
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon {
+    background-image: url();
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px blue;
+    border-color: black;
+}
+
+/* MAIN BUTTONS SECTION */
+
+main .main-buttons {
+    /* background-color: aqua; */
+    /* anchura */
+    width: 500pxs;
+    /* vertical - horizontal */
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline;
+    /* background-color: black; */
+
+}
+
+main .main-buttons button {
+    /* SEPARACIÓN ENTRE BUSCADOR Y BOTONES */
+    margin-top: 30px;
+    /* Eliminar borde negro */
+    border: none;
+    height: 40px;
+    background-color: rgb(242, 239, 239);
+    /* Color de texto */
+    color: #3c4043;
+    border-radius: 8px;
+    padding: 0;
+    /* De los lados y a lo ancho */
+    padding: 0px 15px;
+    font-size: 15px;
+    /* Espacio entre los elementos */
+    margin-right: 10px;
+}
+
+main .main-buttons button:hover{
+    color: #3c4043;
+    /* borde al pasar el cursor */
+    border: 1px solid white;
+    /* sombra al pasar el cursor */
+
+}
+
+footer .section-footer-left .footer-left{
+    display: inline;
+}
+
